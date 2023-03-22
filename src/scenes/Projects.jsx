@@ -59,7 +59,7 @@ const Projects = () => {
       {/* PROJECTS */}
       <div className="flex justify-center">
         <motion.div
-          className="sm:grid sm:grid-cols-3"
+          className="sm:grid sm:grid-cols-4"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
@@ -68,24 +68,67 @@ const Projects = () => {
           {/* ROW 1 */}
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-                max-w-[400px] max-h-[400px] text-5xl font-playfair font-semibold"
+                max-w-[265px] max-h-[265px] text-5xl font-playfair font-semibold"
           >
             React
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <a
+            href="https://github.com/Franklykyle/tiktok-clone"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Project title="Project 1" />
+            <p className=" flex justify-center">Tiktok Clone - Github</p>
+          </a>
+
+          <a
+            href="https://github.com/Franklykyle/gym-website"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Project title="Project 2" />
+            <p className="flex justify-center">EVOGYM - Github</p>
+          </a>
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <a
+            href="https://github.com/Franklykyle/chatgpt-messenger"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Project title="Project 3" />
+            <p className="flex justify-center">ChatGPT - Github</p>
+          </a>
+          {/* <Project title="Project 4" /> */}
+          <a
+            href="https://github.com/Franklykyle/wordle"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Project title="Project 5" />
+            <p className="flex justify-center">Wordle - Github</p>
+          </a>
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
+          <a
+            href="https://github.com/Franklykyle/war-card-game"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Project title="Project 6" />
+            <p className="flex justify-center">War Card Game - Github</p>
+          </a>
+          <a
+            href="https://github.com/Franklykyle/Sweater-Shop"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Project title="Project 7" />
+            <p className="flex justify-center">Sweater Shop - Github</p>
+          </a>
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
-                max-w-[400px] max-h-[400px] text-5xl font-playfair font-semibold"
+                max-w-[265px] max-h-[265px] text-5xl font-playfair font-semibold"
           >
             Swift
           </div>
