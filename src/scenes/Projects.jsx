@@ -82,12 +82,12 @@ const Projects = () => {
           </a>
 
           <a
-            href="https://github.com/Franklykyle/gym-website"
+            href="https://evogymwebsite.netlify.app"
             target="_blank"
             rel="noreferrer"
           >
             <Project title="Project 2" />
-            <p className="flex justify-center">EVOGYM - Github</p>
+            <p className="flex justify-center">EVOGYM - Website</p>
           </a>
 
           {/* ROW 2 */}
