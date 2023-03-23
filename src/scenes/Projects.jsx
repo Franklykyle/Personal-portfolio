@@ -96,7 +96,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Project title="Project 3" />
+            <Project title="Project 3" />{" "}
             <p className="flex justify-center">ChatGPT - Github</p>
           </a>
           {/* <Project title="Project 4" /> */}
