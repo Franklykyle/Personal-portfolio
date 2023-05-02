@@ -73,12 +73,12 @@ const Projects = () => {
             React
           </div>
           <a
-            href="https://github.com/Franklykyle/tiktok-clone"
+            href="https://www.youtube.com/watch?v=BNdy5-P3G9M&ab_channel=KyleFranklin"
             target="_blank"
             rel="noreferrer"
           >
             <Project title="Project 1" />
-            <p className=" flex justify-center">Tiktok Clone - Github</p>
+            <p className=" flex justify-center">Tiktok Clone - Youtube</p>
           </a>
 
           <a
@@ -92,12 +92,12 @@ const Projects = () => {
 
           {/* ROW 2 */}
           <a
-            href="https://github.com/Franklykyle/chatgpt-messenger"
+            href="https://www.youtube.com/watch?v=10VDbfJSFyA&ab_channel=KyleFranklin"
             target="_blank"
             rel="noreferrer"
           >
             <Project title="Project 3" />{" "}
-            <p className="flex justify-center">ChatGPT - Github</p>
+            <p className="flex justify-center">ChatGPT - Youtube</p>
           </a>
           {/* <Project title="Project 4" /> */}
           <a
